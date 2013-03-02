@@ -1,0 +1,35 @@
+{
+    "name": "queue-automator",
+    "version": "0.0.1",
+    "description": "A queue server and client to distibute work among client nodes and having a master server",
+    "main": "server.js",
+    "scripts": {
+        "start": "node api.js",
+        "test": "NODE_ENV=test node node_modules/grunt/bin/grunt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/joyent/node.git"
+    },
+    "keywords": [
+        "queue",
+        "server",
+        "client"
+    ],
+    "devDependencies": {
+        "grunt": "~0.3.17",
+        "mocha": "~1.7.1",
+        "should": "~1.2.1",
+        "grunt-bump": "0.0.1",
+        "grunt-simple-mocha": "~0.2.0"
+    },
+    "dependencies": {
+        "restify": "~1.4.4",
+        "passport": "~0.1.1",
+        "passport-http-2legged-oauth": "~0.1.8",
+        "lru-cache": "~2.2.2",
+        "oauth": "git://github.com/Camme/node-oauth.git#master"
+    },
+    "author": "Camilo Tapia <camilo.tapia@gmail.com>",
+    "license": "MIT"
+}
