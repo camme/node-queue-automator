@@ -25,9 +25,12 @@
     },
     "dependencies": {
         "restify": "~1.4.4",
+        "nunt": "~1.4.2",
         "passport": "~0.1.1",
         "passport-http-2legged-oauth": "~0.1.8",
-        "oauth": "git://github.com/Camme/node-oauth.git#master"
+        "oauth": "git://github.com/Camme/node-oauth.git#master",
+        "socket.io": "~0.9.13",
+        "socket.io-client": "~0.9.11"
     },
     "author": "Camilo Tapia <camilo.tapia@gmail.com>",
     "license": "MIT"
