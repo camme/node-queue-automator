@@ -1,6 +1,6 @@
 {
     "name": "queue-automator",
-    "version": "0.0.1",
+    "version": "0.3.7",
     "description": "A queue server and client to distibute work among client nodes and having a master server",
     "main": "server.js",
     "scripts": {
@@ -30,7 +30,8 @@
         "passport-http-2legged-oauth": "~0.1.8",
         "oauth": "git://github.com/Camme/node-oauth.git#master",
         "socket.io": "~0.9.13",
-        "socket.io-client": "~0.9.11"
+        "socket.io-client": "~0.9.11",
+        "stylus": "~0.32.1"
     },
     "author": "Camilo Tapia <camilo.tapia@gmail.com>",
     "license": "MIT"

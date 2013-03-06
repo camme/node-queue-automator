@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Queue Automator Server</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="scripts/info.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+</head>
+<body>
+
+    <h1>Queue Automator Server</h1>
+
+    <div id="clients">
+        <h2>Clients:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>IP</th>
+                    <th>ID</th>
+                    <th>FREE</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div id="active">
+        <h2>Active queue:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>KEY</th>
+                    <th>TIMESTAMP</th>
+                    <th>CLIENT ID</th>
+                    <th>DATA</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div id="queue">
+        <h2>Queue:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>KEY</th>
+                    <th>TIMESTAMP</th>
+                    <th>DATA</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+</body>
+</html>
