@@ -76,7 +76,7 @@ And this is the client
 #### Adding queue items. 
 With the code above, you could call the following url to add an item to the queue and watch how it is proccessed:
 
-    curl http://localhost:10001/add?key=1&text1=hello&text2=world
+    curl http://localhost:20301/add?key=1&text1=hello&text2=world
 
 #### Info screen
 You can whats all proccessed and clients by browsing to http://localhost:20301/info. It will display the queue, the current connected clients and who is proccessing what.
